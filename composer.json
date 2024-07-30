@@ -1,19 +1,19 @@
 {
     "name": "suhaib3100/db-razropay",
     "description": "Razorpay Bagisto Integration",
-    "type": "composer-package",
+    "type": "library",
     "require": {},
     "license": "MIT",
     "authors": [
         {
             "name": "suhaib",
-            "email": "suhaib@dagar.in"
+            "email": "ankit@dagar.in"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Bagisto\\Razorpay\\": "src"
+            "Bagisto\\Razorpay\\": "src/"
         }
     },
     "extra": {
@@ -22,7 +22,6 @@
                 "Bagisto\\Razorpay\\Providers\\RazorpayServiceProvider"
             ],
             "aliases": {},
-            
             "dont-discover": [
                 "laravel/dusk"
             ]
