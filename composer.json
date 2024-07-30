@@ -1,13 +1,13 @@
 {
-    "name": "dagar/bagisto-razorpay",
+    "name": "suhaib3100/db-razropay",
     "description": "Razorpay Bagisto Integration",
     "type": "composer-package",
     "require": {},
     "license": "MIT",
     "authors": [
         {
-            "name": "ankit",
-            "email": "ankit@dagar.in"
+            "name": "suhaib",
+            "email": "suhaib@dagar.in"
         }
     ],
     "minimum-stability": "stable",
